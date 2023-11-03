@@ -1,0 +1,41 @@
+footer {
+    background-color: $color-negro;
+    color: #fff;
+    padding: 20px 0px;
+  }
+  
+  .footerContenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer {
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    i {
+      margin-right: 10px;
+    }
+  }
+  
+  /* main-index */
+  
+  .main-index {
+    background-color: darkgray;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .p-index {
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 400;
+  }
+  

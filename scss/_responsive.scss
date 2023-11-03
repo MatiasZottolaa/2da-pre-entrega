@@ -1,0 +1,42 @@
+/* responsive */
+
+/* tablet (768 x 1023) */
+
+@media (max-width: 1023px) {
+    /* main */
+  
+    .main-index {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner {
+      width: 300px;
+  
+      /* ubicacion */
+    }
+  
+    .p-ubicacion {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .iframe-ubicacion {
+      width: 300px;
+    }
+  
+    /* nosotros */
+  
+    .section-n2 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nuestros-productos {
+      grid-template-columns: 1fr;
+    }
+  }
+  
